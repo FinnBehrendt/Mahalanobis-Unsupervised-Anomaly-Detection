@@ -1,0 +1,53 @@
+# @package _global_
+
+# to execute this experiment run:
+# python run.py experiment=example_full.yaml
+
+defaults:
+  - override /trainer: default.yaml # override trainer to null so it's not loaded from main config defaults...
+  - override /model: DDPM_2D.yaml
+  - override /datamodule: IXI.yaml
+datamodule:
+  cfg:
+    rescaleFactor: 2
+    imageDim: [192,192,100]
+    mode: t2
+    aug_intensity: True
+model:
+  cfg: 
+    test_timesteps: 500
+    ssim_sigma: 1
+    ssim_kernel: 11
+    dim_mults: [1,2,2]
+    cond_dim: 128
+    unet_dim: 128
+    backbone: Spark_Encoder_2D
+    version: resnet50
+    OpenaiUnet: True # use openai unet
+    spatial_transformer: False # use crossattention for conditional features
+    condition: True # use conditional features
+    noisetype: simplex
+    pretrained_encoder: False 
+    save_to_disc: False
+    noise_ensemble: False
+    camstrat: mult
+    mc_ensemble: True
+    masked_mhd: True
+    smooth_cam: True
+    residualmode: ssim 
+    no_postproc: True 
+num_folds: 5
+logger:
+  wandb:
+    project: MHD
+
+ckpt_path: best 
+
+trainer:
+  max_epochs: 1200
+name : cDDPM_MHD
+seed: 3141
+onlyEval: True # no need for training for MHD
+new_wandb_run: True
+noCV: False
+load_checkpoint: /data/Behrendt/UAD_Brain/MIC23/models/Spark_2D_r065/

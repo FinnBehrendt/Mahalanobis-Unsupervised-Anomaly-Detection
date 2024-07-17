@@ -1,0 +1,16 @@
+,img_name,label,age,img_path,mask_path,seg_path
+11,Utrecht_49_t1.nii.gz,1,,/Test/WMH/t1/Utrecht_49_t1.nii.gz,/Test/WMH/mask/Utrecht_49_mask.nii.gz,/Test/WMH/seg/Utrecht_49_seg.nii.gz
+35,GE3T_114_t1.nii.gz,1,,/Test/WMH/t1/GE3T_114_t1.nii.gz,/Test/WMH/mask/GE3T_114_mask.nii.gz,/Test/WMH/seg/GE3T_114_seg.nii.gz
+58,Utrecht_21_t1.nii.gz,1,,/Test/WMH/t1/Utrecht_21_t1.nii.gz,/Test/WMH/mask/Utrecht_21_mask.nii.gz,/Test/WMH/seg/Utrecht_21_seg.nii.gz
+23,Singapore_68_t1.nii.gz,1,,/Test/WMH/t1/Singapore_68_t1.nii.gz,/Test/WMH/mask/Singapore_68_mask.nii.gz,/Test/WMH/seg/Singapore_68_seg.nii.gz
+30,GE3T_126_t1.nii.gz,1,,/Test/WMH/t1/GE3T_126_t1.nii.gz,/Test/WMH/mask/GE3T_126_mask.nii.gz,/Test/WMH/seg/GE3T_126_seg.nii.gz
+46,Singapore_53_t1.nii.gz,1,,/Test/WMH/t1/Singapore_53_t1.nii.gz,/Test/WMH/mask/Singapore_53_mask.nii.gz,/Test/WMH/seg/Singapore_53_seg.nii.gz
+2,Utrecht_0_t1.nii.gz,1,,/Test/WMH/t1/Utrecht_0_t1.nii.gz,/Test/WMH/mask/Utrecht_0_mask.nii.gz,/Test/WMH/seg/Utrecht_0_seg.nii.gz
+27,Singapore_69_t1.nii.gz,1,,/Test/WMH/t1/Singapore_69_t1.nii.gz,/Test/WMH/mask/Singapore_69_mask.nii.gz,/Test/WMH/seg/Singapore_69_seg.nii.gz
+17,Singapore_50_t1.nii.gz,1,,/Test/WMH/t1/Singapore_50_t1.nii.gz,/Test/WMH/mask/Singapore_50_mask.nii.gz,/Test/WMH/seg/Singapore_50_seg.nii.gz
+51,Singapore_51_t1.nii.gz,1,,/Test/WMH/t1/Singapore_51_t1.nii.gz,/Test/WMH/mask/Singapore_51_mask.nii.gz,/Test/WMH/seg/Singapore_51_seg.nii.gz
+16,GE3T_112_t1.nii.gz,1,,/Test/WMH/t1/GE3T_112_t1.nii.gz,/Test/WMH/mask/GE3T_112_mask.nii.gz,/Test/WMH/seg/GE3T_112_seg.nii.gz
+21,GE3T_101_t1.nii.gz,1,,/Test/WMH/t1/GE3T_101_t1.nii.gz,/Test/WMH/mask/GE3T_101_mask.nii.gz,/Test/WMH/seg/GE3T_101_seg.nii.gz
+49,Utrecht_23_t1.nii.gz,1,,/Test/WMH/t1/Utrecht_23_t1.nii.gz,/Test/WMH/mask/Utrecht_23_mask.nii.gz,/Test/WMH/seg/Utrecht_23_seg.nii.gz
+0,Singapore_58_t1.nii.gz,1,,/Test/WMH/t1/Singapore_58_t1.nii.gz,/Test/WMH/mask/Singapore_58_mask.nii.gz,/Test/WMH/seg/Singapore_58_seg.nii.gz
+4,Singapore_67_t1.nii.gz,1,,/Test/WMH/t1/Singapore_67_t1.nii.gz,/Test/WMH/mask/Singapore_67_mask.nii.gz,/Test/WMH/seg/Singapore_67_seg.nii.gz
