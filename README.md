@@ -1,4 +1,4 @@
-# Conditioned-Diffusion-Models-UAD
+# Mahalanobis Distance for Anomaly Detection in Brain MRI
 Codebase for our MICCAI 24 paper [Leveraging the Mahalanobis Distance to enhance Unsupervised Brain MRI Anomaly Detection](https://arxiv.org/abs/XXX).
 
 ![](Graphical_abstract.gif)
