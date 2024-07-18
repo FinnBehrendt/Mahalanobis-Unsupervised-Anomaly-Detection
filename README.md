@@ -1,5 +1,5 @@
 # Mahalanobis Distance for Anomaly Detection in Brain MRI
-Codebase for our MICCAI 24 paper [Leveraging the Mahalanobis Distance to enhance Unsupervised Brain MRI Anomaly Detection](https://arxiv.org/abs/XXX).
+Codebase for our MICCAI 24 paper [Leveraging the Mahalanobis Distance to enhance Unsupervised Brain MRI Anomaly Detection](http://arxiv.org/abs/2407.12474).
 
 ![](Graphical_abstract.gif)
 

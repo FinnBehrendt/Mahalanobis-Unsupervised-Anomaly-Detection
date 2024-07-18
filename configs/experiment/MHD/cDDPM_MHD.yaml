@@ -50,4 +50,4 @@ seed: 3141
 onlyEval: True # no need for training for MHD
 new_wandb_run: True
 noCV: False
-load_checkpoint: /data/Behrendt/UAD_Brain/MIC23/models/Spark_2D_r065/
+load_checkpoint: xxx
