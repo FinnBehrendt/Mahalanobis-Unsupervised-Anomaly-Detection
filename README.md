@@ -102,5 +102,20 @@ for T2 and
     python run.py experiment=MHD/cDDPM_MHD load_checkpoint=<path_to_trained_cDDPM> datamodule.cfg.mode=t1 
 for T1 weighted scans.
 
+## Citation
+If you make use of our work, we would be happy if you cite it via
+
+
+    @inproceedings{10.1007/978-3-031-72120-5_37,
+    	abstract = {Unsupervised Anomaly Detection (UAD) methods rely on healthy data distributions to identify anomalies as outliers. In brain MRI, a common approach is reconstruction-based UAD, where generative models reconstruct healthy brain MRIs, and anomalies are detected as deviations between input and reconstruction. However, this method is sensitive to imperfect reconstructions, leading to false positives that impede the segmentation. To address this limitation, we construct multiple reconstructions with probabilistic diffusion models. We then analyze the resulting distribution of these reconstructions using the Mahalanobis distance to identify anomalies as outliers. By leveraging information about normal variations and covariance of individual pixels within this distribution, we effectively refine anomaly scoring, leading to improved segmentation. Our experimental results demonstrate substantial performance improvements across various data sets. Specifically, compared to relying solely on single reconstructions, our approach achieves relative improvements of 15.9{\%}, 35.4{\%}, 48.0{\%}, and 4.7{\%} in terms of AUPRC for the BRATS21, ATLAS, MSLUB and WMH data sets, respectively.},
+    	address = {Cham},
+    	author = {Behrendt, Finn and Bhattacharya, Debayan and Mieling, Robin and Maack, Lennart and Kr{\"u}ger, Julia and Opfer, Roland and Schlaefer, Alexander},
+    	booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+    	editor = {Linguraru, Marius George and Dou, Qi and Feragen, Aasa and Giannarou, Stamatia and Glocker, Ben and Lekadir, Karim and Schnabel, Julia A.},
+    	isbn = {978-3-031-72120-5},
+    	pages = {394--404},
+    	publisher = {Springer Nature Switzerland},
+    	title = {Leveraging the Mahalanobis Distance to Enhance Unsupervised Brain MRI Anomaly Detection},
+    	year = {2024}}
 
 
